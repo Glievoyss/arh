@@ -1,0 +1,57 @@
+{
+  "name": "csx",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "axios": "0.19.2",
+    "classnames": "2.2.6",
+    "final-form": "4.20.1",
+    "i18next": "19.8.2",
+    "i18next-xhr-backend": "3.2.2",
+    "jwt-decode": "3.0.0",
+    "lodash": "4.17.20",
+    "moment": "2.29.1",
+    "node-sass": "4.14.1",
+    "prop-types": "15.7.2",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-final-form": "6.5.2",
+    "react-google-charts": "3.0.15",
+    "react-i18next": "11.7.3",
+    "react-input-mask": "2.0.4",
+    "react-paginate": "6.5.0",
+    "react-router-dom": "5.2.0",
+    "react-select": "3.1.0",
+    "react-texty": "0.6.0"
+  },
+  "scripts": {
+    "start-js": "react-scripts start",
+    "start": "env-cmd .env.development npm run start-js",
+    "build": "react-scripts build",
+    "build:staging": "env-cmd .env.staging npm run build",
+    "build:production": "env-cmd .env.production npm run build",
+    "eslint": "eslint ./src/ --max-warnings 0",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write './src/**/*.{js,scss}'"
+  },
+  "devDependencies": {
+    "env-cmd": "8.0.2",
+    "eslint": "6.8.0",
+    "eslint-plugin-react": "7.21.5",
+    "prettier": "2.1.2",
+    "react-scripts": "3.4.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

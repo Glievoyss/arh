@@ -1,0 +1,16 @@
+@import 'styles/_variables';
+
+.header {
+  height: 64px;
+  padding: 0 20px 0 32px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: $border;
+
+  &_settings {
+    display: flex;
+    align-items: center;
+  }
+}
